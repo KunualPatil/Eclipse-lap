@@ -19,7 +19,7 @@ static void num(int...EvenOdd) {
 		
 		// input method
 		
-		Scanner sc= new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
@@ -31,7 +31,6 @@ static void num(int...EvenOdd) {
         // Else condition
         else
             System.out.println(num + " is odd");
-        sc.close();
     }
 
 }
